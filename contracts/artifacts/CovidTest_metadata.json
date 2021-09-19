@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/covid.sol": "CovidTest"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/covid.sol": {
+			"keccak256": "0xbeed77fd4aba4752f6dbc424be7aa1c42391442e3b566e151e4689996fbed9ee",
+			"license": "UNLICENSED",
+			"urls": [
+				"bzz-raw://7e283418eeaac0f9cf34ad931b031d7886c6684fd35e59c9d3006a8e20a65201",
+				"dweb:/ipfs/QmQjK8xV1SyKjX1Q7auZBU74B7GWPeLHbKt6UcXfsJDAN3"
+			]
+		}
+	},
+	"version": 1
+}

@@ -1,0 +1,83 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "DanhSachKetQua",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "id",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "ipfsLink",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "ipfsLink",
+						"type": "string"
+					}
+				],
+				"name": "ThemGiayXetNghiem",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/covid.sol": "Covid"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/covid.sol": {
+			"keccak256": "0xc4d6036e77e9dcb916aac4e09d7ec4ad4a949bc8dd2871c06a33dbe4dea4e830",
+			"license": "UNLICENSED",
+			"urls": [
+				"bzz-raw://a71284448f40210123fab0e4c59681c48b1311b5243015fe734788d006f1d933",
+				"dweb:/ipfs/QmYFEVstGbG44a2FfZe2PoXaRsgnocbiBvkJSxsWJEhyMM"
+			]
+		}
+	},
+	"version": 1
+}
